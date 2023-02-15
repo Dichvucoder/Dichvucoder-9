@@ -5,15 +5,15 @@ pkg i tur-repo -y & pkg i dichvucoder-repo -y
 2. Remove php & tur-repo
 pkg remove tur-repo php* -y
 3. Install php :
-PHP 7.2 :
-pkg i php7.2 -y
+PHP 8.2 :
+pkg i php -y
 PHP 7.4 :
 pkg i php7 -y
 PHP 8.1 :
 pkg i php-8.1 -y
 4. Install Dichvucoder extension:
-PHP 7.2 :
-pkg i php7.2-dichvucoder -y
+PHP 8.2 :
+pkg i php-dichvucoder -y
 PHP 7.4 :
 pkg i php7-dichvucoder -y
 PHP 8.1 :
@@ -21,3 +21,4 @@ pkg i php-8.1-dichvucoder -y
 
 So you have succeeded in installing the Dichvucoder extension.
 Now you can run the tool normally.
+
