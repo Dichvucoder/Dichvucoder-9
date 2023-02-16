@@ -51,3 +51,5 @@ pkg i php-dichvucoder -y
 #### Dichvucoder
 + FB Page : https://www.facebook.com/dichvucoder.company
 + Zalo group : https://zalo.me/g/lzlwml205
++ Github : https://github.com/Dichvucoder
++ Telegram : https://t.me/dichvucoder
