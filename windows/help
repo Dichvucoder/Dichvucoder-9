@@ -1,7 +1,9 @@
 Home Url : https://github.com/Dichvucoder/Dichvucoder-9
-Download file : https://github.com/Dichvucoder/Dichvucoder-9/releases/tag/Windows-1.0
-Extract zip file
-Copy the 'php_dichvucoder.dll' corresponding to the PHP version to the 'ext' directory ('ext' in the folder containing the file 'php.exe')
-Add 'enable_dl=1' to 'php.ini' (same directory as 'php.exe')
-Make sure there is no line 'enable_dl=0' or 'enable_dl=Off'
+Please install it following these steps :
+
+1. Download file : https://github.com/Dichvucoder/Dichvucoder-9/releases/tag/Windows-1.0
+2. Extract zip file
+3. Copy the 'php_dichvucoder.dll' corresponding to the PHP version to the 'ext' directory ('ext' in the folder containing the file 'php.exe')
+4. Add 'enable_dl=1' to 'php.ini' (same directory as 'php.exe')
+5. Make sure there is no line 'enable_dl=0' or 'enable_dl=Off'
 Once php dichvucoder extension successfully installed. You can run the dichvucoder encrypted file.
