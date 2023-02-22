@@ -1,5 +1,5 @@
 name: "Package Request"
-description: "Request a new package."
+description: "Request a new package (Dichvucoder repo)."
 title: "[Package]: "
 labels: ["Package request"]
 body:
@@ -27,7 +27,9 @@ body:
   - type: input
     attributes:
       label: Source code URL
-      placeholder: Link to Git or source archive, we accept 1 individual C file. If the source is secure you can send it via email dichvucoder@gmail.com.
+      placeholder: Link to Git or source archive
+      description: |
+       We accept 1 individual C file. If the source is secure you can send it via email dichvucoder@gmail.com.
     validations:
       required: true
 
