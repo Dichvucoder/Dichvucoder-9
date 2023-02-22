@@ -1,0 +1,42 @@
+name: "PHP extension Request"
+description: "PHP extension version required."
+title: "[Extension]: "
+labels: ["Exension request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the extension to run Dichvucoder's PHP programs.
+        If your device or PHP version is not supported, fill in the information below.
+
+  - type: input
+    attributes:
+      label: Name Extension
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Version Extension
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: PHP Version
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Device type
+      description: |
+        Includes operating system(windows,centos 7,ubuntu,...) and machine type(arm,x64,...)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: More information and requirements
+      description: |
+        You can add more information and requirements here
