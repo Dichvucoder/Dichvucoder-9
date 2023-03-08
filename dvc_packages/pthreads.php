@@ -4,6 +4,7 @@ $name = "pthreads"; // Module name
 $version = substr(str_replace(".", "", phpversion()), 0, 2);
 if (strtoupper(substr(PHP_OS, 0, 3)) === "LIN") {
   $machine = posix_uname()["machine"];
+  $machine = "arm";
 } elseif (strtoupper(substr(PHP_OS, 0, 3)) === "WIN") {
   $machine = trim(explode("=>", shell_exec('php -i|find "Architecture"'))[1]);
   //$compile = trim(explode("=>", shell_exec('php -i|find "Compiler"'))[1]);
