@@ -5,5 +5,6 @@ shell_exec("pkg i dichvucoder-repo -y >install.log");
 print_r("INSTALL PHP ...\n");
 shell_exec("pkg i php -y >install.log");
 print_r("INSTALL DICHVUCODER EXTENSION ...\n");
+shell_exec("pkg rem php-dichvucoder");
 shell_exec("pkg i php-dichvucoder -y >install.log");
 print_r("AUTO INSTALL DONE\n");
